@@ -92,7 +92,7 @@ h1 {
   transform: translateX(5px);
 }
 .header-text {
-  padding: 45px 0;
+  padding: 45px 20px;
   max-width: 1100px;
   font-size: 1.2rem;
   line-height: 34px;
@@ -300,66 +300,80 @@ footer ul {
 }
 /* -------------------Media ---------------------- */
 
-@media screen and (max-width: 895px) {
-    nav li {
-      font-size: 0.7rem;
-    }
-    .main-header img {
-      width: 60%;
-    }
-    .contact-list .list {
-      padding-left: 15px;
-    }
-    .medias-logos img {
-      width: 40px;
-    }
-    footer ul {
-      flex-wrap: wrap;
-    }
-    footer li {
-      margin: 5px;
-    }
+@media screen and (max-width: 1000px) {
+  nav li {
+    font-size: 0.7rem;
   }
-  @media screen and (max-width: 704px) {
-    nav li {
-      display: none;
-    }
-    .icon-part-container {
-      display: block;
-    }
-    .icon-part {
-      padding: 0 0 30px;
-    }
-    .list-icon-part {
-      margin-top: 40px;
-    }
-    .header-news {
-      display: block;
-    }
-    .left-part {
-      width: 100%;
-    }
-    .left-part h2 {
-      text-align: center;
-    }
-    .left-part p {
-      text-align: center;
-      margin-bottom: 10px;
-    }
-    .main-news-container {
-      display: block;
-    }
-    .main-news-container div {
-      max-width: 90%;
-      margin: 0 auto;
-      padding-bottom: 15px;
-      margin-top: 58px;
-    }
-    .main-news-container img {
-      width: 50%;
-    }
-    .contact {
-      display: none;
-    }
+  .main-header img {
+    width: 80%;
   }
-  
+  .contact-list .list {
+    padding-left: 15px;
+  }
+  .medias-logos img {
+    width: 40px;
+  }
+  footer ul {
+    flex-wrap: wrap;
+  }
+  footer li {
+    margin: 5px;
+  }
+
+  footer li img {
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  nav li {
+    display: none;
+  }
+
+  .main-header {
+    padding: 50px 0px;
+  }
+  .icon-part-container {
+    display: block;
+  }
+  .icon-part {
+    padding: 0 0 30px;
+  }
+  .list-icon-part {
+    margin-top: 40px;
+  }
+  .header-news {
+    display: block;
+  }
+  .left-part {
+    width: 100%;
+  }
+  .left-part h2 {
+    text-align: center;
+  }
+  .left-part p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .main-news-container {
+    display: block;
+  }
+  .main-news-container div {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    margin-top: 58px;
+  }
+  .main-news-container img {
+    width: 50%;
+  }
+  .contact {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-header img {
+    width: 95%;
+  }
+}
